@@ -17,7 +17,7 @@ name = "aboki"
 
 //local
 
-
+var x =40
 
 
 var x = 5
