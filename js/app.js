@@ -16,7 +16,7 @@ name = "aboki"
 //global 
 
 //local
-
+var y = 0
 var x =40
 
 
