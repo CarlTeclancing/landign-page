@@ -23,6 +23,14 @@ var x =40
 var x = 5
 var y = 6
 
+function add(a,b){
+    return (a+b)
+}
+console.log(add(6,7))
+
+
+
+
 
 
 function changeText(){
@@ -33,6 +41,30 @@ function changeText(){
         h1.innerHTML = "Ui/Ux Designer And Web Developer"
     }
 }
+
+
+
+
+concatString =(a,b)=>{
+    return(a+b)
+}
+console.log()
+
+concatString("hell ", "world")
+
+
+
+
+
+var btn = document.getElementById("btn")
+
+btn.addEventListener("click", function(){
+    alert("hello world")
+})
+
+
+
+
 
 
 let changeImg = ()=>{
@@ -46,3 +78,17 @@ let changeImg = ()=>{
 }
 
 
+
+
+
+
+var open = document.getElementById("open")
+
+open.addEventListener("click", function(){
+    var overlay = document.getElementById("overlay")
+    if(overlay.style.width == "80%"){
+        overlay.style.width = "0%"
+    }else{
+        overlay.style.width = "80%"
+    }
+})

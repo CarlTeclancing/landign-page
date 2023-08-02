@@ -111,6 +111,9 @@ h4{
     display: none;
 }
 
+.overlay{
+    display: none;
+}
 
 
 @media only screen and (max-width: 770px){
@@ -167,6 +170,38 @@ h4{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .overlay{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: fixed;
+        height: 100vh;
+        width: 0%;
+        overflow: hidden;
+        left: 0px;
+        top: 0px;
+        background-color: rgb(255, 255, 255);
+    }
+    .overlay-el{
+        height: 400px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .overlay-el a{
+        color: rgb(0, 94, 255);
+        font-size: 24px;
+        text-decoration: none;
+        margin-top: 16px;
+    }
+    .overlay-el a:hover{
+        color: rgb(62, 130, 248);
+        font-size: 24px;
+        text-decoration: none;
+        margin-top: 16px;
     }
     
 }

@@ -11,6 +11,17 @@
     />
   </head>
   <body>
+    <div class="overlay" id="overlay">
+      <div class="overlay-el">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Services</a>
+      </div>
+      <button class="btn">
+        <a href="./assets/yuven carlson cv.pdf">Download CV</a>
+      </button>
+    </div>
     <nav>
       <img src="./assets/Cw-removebg-preview.png" alt="" />
       <div class="nav-el hidden">
@@ -23,13 +34,13 @@
       <button class="btn hidden">
         <a href="./assets/yuven carlson cv.pdf">Download CV</a>
       </button>
-      <i class="bi bi-list"></i>
+      <i class="bi bi-list" id="open"></i>
     </nav>
 
     <div class="container">
-      <h1 id="h1" onclick="changeText()">Ui/Ux Designer And Web Developer</h1>
+      <h1 id="h1">Ui/Ux Designer And Web Developer</h1>
       <p>Creative Design And Developement</p>
-      <button class="btn btn-t">Projects</button>
+      <button onclick="changeText()" class="btn btn-t">Projects</button>
     </div>
 
     <div class="container">
@@ -108,7 +119,12 @@
         <img onclick="changeImg()" id="img" src="./assets/crestlancing.com.png" class="hero" alt="" />
         
       </div>
+<button class="btn" id="btn">Alert</button>
+      
     </div>
+    <footer>
+      <span>&copy;CRESTLANCING 2023</span>
+    </footer>
 
     <script src="./js/app.js"></script>
   </body>
